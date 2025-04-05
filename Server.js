@@ -3,7 +3,7 @@ bodyParser = require('body-parser')
 
 const {default: mongoose, syncIndexes } = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/Schoolmen").then(()=>{
+mongoose.connect("mongodb+srv://neerajkumawat717:cgjcIX6mUbG2brIk@cluster0.gc39wgq.mongodb.net/Schoolmen").then(()=>{
     console.log("mongodb connect")
 }).catch((err)=>{
     console.log(err)
