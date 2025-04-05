@@ -177,3 +177,10 @@ app.post("/Coursdelet",async(req,res)=>{
     })
 
 })
+
+
+app.get("/",(req,res)=>{
+    res.json({
+        status:true
+    })
+})
